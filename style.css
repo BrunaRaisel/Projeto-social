@@ -26,12 +26,41 @@ section {
     width: 310px; 
 }
 
+nav {
+    margin-top: 20px;
+    margin-right: 18px;
+    float: right;
+    
+}
 
+a {
+    padding: 10px;
+}
 
 img {
-
-    width: 40px; 
+    display: list-item;
+    width: 100px; 
+    /* padding: 10px; */
+    border-radius: 60px;
+    
+    box-shadow: 3px 3px 8px black;
+    box-sizing: border-box;
  
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 264px;
+    height: 470px;
+}
+
+img:hover{
+   border: 2px solid white;
+   transform: translate(-3px, -4px);
+   box-shadow: 5px 5px 10px black;
+   transition: 0.4s;
 }
 
 
